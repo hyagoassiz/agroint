@@ -1,0 +1,15 @@
+.confirmName-container {
+  background-color: #2F3940;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa 100% da altura da viewport */
+  }
+  
+.title-confirmName{
+  color: #F2F2F2;
+  font-size: 16px;
+  font-weight: bold;
+}
+  

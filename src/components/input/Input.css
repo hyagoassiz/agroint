@@ -1,0 +1,38 @@
+.input-container{
+    background-color:#3A3E49;
+    height: 40px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+input {
+    height: 100%;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+    color: #D3D3D3;
+    font-weight:lighter;
+}
+
+input::placeholder{
+    color: #696767;
+    opacity: 50%;
+}
+
+
+
+input:focus{
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+
+.icon-input{
+    height: 25px;
+    margin-left: 5px;
+}
+
