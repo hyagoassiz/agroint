@@ -1,0 +1,48 @@
+.card-client{
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;  
+    color: #333E47;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+
+.info-client{
+    margin-left: 10px;
+    
+
+}
+
+.li-card{
+    display: block;
+    font-size: 14px;
+}
+
+.title-card {
+    color: #01725D;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.card-client:hover{
+    outline: none; /* Remove a borda de foco padrão */
+    /* Adicione seu estilo de foco personalizado aqui, como uma borda diferente ou sombreamento */
+    box-shadow: 0 0 3px #01725D; /* Exemplo: sombreamento ao focar */
+    cursor: pointer;
+}
+
+.info-status-client{
+    display: flex;
+    align-items: center;  
+}
+
+.nav-icon-status{
+    margin-right: 5px;
+    height: 13px;
+}

@@ -7,8 +7,11 @@ import './Clients.css'; // Importe o arquivo CSS para estilização
 import ConfirmName from "../../components/confirmName";
 import Nav from "../../components/nav";
 import Category from "../../components/category";
+import CardClient from "../../components/cardClient";
+import Search from "../../components/search";
+import ButtonFilter from "../../components/buttonFilter";
 
-// Imagens
+// ImagensButtonFilter
 import logoClients from "../../assets/clients.png";
 
 function Clients() {
@@ -34,6 +37,14 @@ function Clients() {
                         icon={logoClients}
                         name="CLIENTES"
                     />
+                    <Search/>
+                    <ButtonFilter/>
+                    <ButtonFilter/>
+                    <CardClient/>
+                    <CardClient/>
+                    <CardClient/>
+                    <CardClient/>
+                    
                 </div>
             ) : (
                 <div>
